@@ -7,6 +7,6 @@ class Song
     @@songs << self
   end
   def self.songs
-    @@songs
+    @@songs 
   end
 end

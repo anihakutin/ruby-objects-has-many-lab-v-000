@@ -4,5 +4,9 @@ class Post
 
   def initialize(title)
     @title = title
+
+  end
+  def self.posts
+    @@posts
   end
 end
